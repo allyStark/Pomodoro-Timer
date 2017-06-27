@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <script src="https://use.fontawesome.com/ff5d025d27.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+
+  </head>
+  
+  <body class='body'>
+
+    <div class="container outerCont">
+
+      <div class="row">
+
+        <div class="clock text-center col">
+
+          <p class="title">Pomodoro Timer</p>
+
+          <div class="container mainCont">
+
+            <div class="row">
+
+              <div class="col text-center">
+
+                <button class="btn btn-danger start"><i class="fa fa-play" aria-hidden="true"></i></button>
+                <button class="btn btn-danger stop"><i class="fa fa-stop" aria-hidden="true"></i></button>
+                <button class="btn btn-danger reset"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+              </div>
+            </div>
+
+            <p class="timer">Work Time: <span id="timeleft">25.00</span></p>
+
+            <button id="addTime" class="btn btn-danger col-2"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+            <button id="subTime" class="btn btn-danger col-2"><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+
+            <p class="break">Break Time: <span id="breaktime">10.00</span></p>
+
+            <button id="addTimeBreak" class="col-2 btn btn-danger"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+            <button id="subTimeBreak" class="col-2 btn btn-danger"><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  
+    <script src="javascript.js"></script>
+
+  </body>
+
+</html>
